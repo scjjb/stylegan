@@ -5,12 +5,12 @@
 # http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to
 # Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-from . import autosummary
-from . import network
-from . import optimizer
-from . import tfutil
+from stylegan.dnnlib import autosummary
+from stylegan.dnnlib import network
+from stylegan.dnnlib import optimizer
+from stylegan.dnnlib import tfutil
 
-from .tfutil import *
-from .network import Network
+from stylegan.dnnlib.tfutil import *
+from stylegan.dnnlib.network import Network
 
-from .optimizer import Optimizer
+from stylegan.dnnlib.optimizer import Optimizer
