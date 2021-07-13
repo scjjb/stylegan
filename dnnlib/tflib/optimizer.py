@@ -13,11 +13,11 @@ import tensorflow as tf
 from collections import OrderedDict
 from typing import List, Union
 
-from . import autosummary
-from . import tfutil
-from .. import util
+from stylegan.dnnlib import autosummary
+from stylegan.dnnlib import tfutil
+from stylegan import util
 
-from .tfutil import TfExpression, TfExpressionEx
+from stylegan.dnnlib.tfutil import TfExpression, TfExpressionEx
 
 try:
     # TensorFlow 1.13
