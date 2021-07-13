@@ -18,7 +18,7 @@ import tensorflow as tf
 from collections import OrderedDict
 from typing import Any, List, Tuple, Union
 
-from stylegan.tflib.dnnlib import tfutil
+from stylegan.dnnlib.tflib import tfutil
 from stylegan.dnnlib import util
 
 from stylegan.dnnlib.tflib.tfutil import TfExpression, TfExpressionEx
